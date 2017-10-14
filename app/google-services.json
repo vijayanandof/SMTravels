@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "375692813628",
+    "firebase_url": "https://smtravels-59316.firebaseio.com",
+    "project_id": "smtravels-59316",
+    "storage_bucket": "smtravels-59316.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375692813628:android:6fb8cdb75c37aec6",
+        "android_client_info": {
+          "package_name": "com.hexcodeinc.smtravels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375692813628-rkectgrptsg8ct3tf2n0e8p5alshf2vj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hexcodeinc.smtravels",
+            "certificate_hash": "bb2a6453f99d4d1e422462fbbb24a31a11f1ba36"
+          }
+        },
+        {
+          "client_id": "375692813628-d70s2bf5pupgal4m8vh85fodq2m3uf30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2uCA8yNUjd9hoIuG1E0I3VUqfcGsinSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375692813628-d70s2bf5pupgal4m8vh85fodq2m3uf30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

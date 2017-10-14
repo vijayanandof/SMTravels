@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hexcodeinc.smtravels.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        android:layout_marginStart="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="#ffffff"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0"
+        android:id="@+id/constraintLayout">
+
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MailId"
+            android:textSize="20sp"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20sp"
+            android:textColor="@color/colorblack"
+            tools:layout_constraintBottom_creator="1"
+            app:layout_constraintBottom_toTopOf="@+id/textview2"
+            android:layout_marginStart="12dp"
+            tools:layout_constraintLeft_creator="1"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintLeft_toRightOf="@+id/textView5"
+            android:layout_marginLeft="12dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="20sp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/colorblack"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="16dp"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="92dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/smtravels"
+            tools:layout_constraintTop_creator="1"
+            android:layout_marginStart="315dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="315dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="495dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <Button
+                android:id="@+id/mkbooking"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:text="Make Booking"
+                />
+
+            <Button
+                android:id="@+id/livbooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Live Bookings" />
+
+            <Button
+                android:id="@+id/compbooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Completed Bookings" />
+
+            <Button
+                android:id="@+id/cancelbook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancelled jobs" />
+
+            <Button
+                android:id="@+id/driverdet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Driver Details" />
+
+            <Button
+                android:id="@+id/vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vechile Details" />
+
+            <Button
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Messsage" />
+
+            <Button
+                android:id="@+id/report"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reports/Invoice" />
+
+            <Button
+                android:id="@+id/empmaintain"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Maintenance" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
+
+
